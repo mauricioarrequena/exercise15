@@ -1,12 +1,13 @@
+import ThreadsList from "./ThreadsList"
+import Chat from "./Chat"
+
+
 function App() {
   return (
-    <>
-      <span>app</span>
-      <span>app is working</span>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </>
+    <div id="app" className="flex flex-col gap-8">
+      <ThreadsList />
+      <Chat/>
+    </div>
   )
 }
 

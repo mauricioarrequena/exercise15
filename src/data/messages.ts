@@ -1,0 +1,42 @@
+export const messages = [
+  {
+    id: 101,
+    content: "Hey, how's it going?",
+    read: false,
+    timestamp: "2025-06-04T10:00:00Z",
+    author: "Alice",
+    threadId: 1,
+  },
+  {
+    id: 102,
+    content: "All good here! You?",
+    read: true,
+    timestamp: "2025-06-04T10:05:00Z",
+    author: "Bob",
+    threadId: 1,
+  },
+  {
+    id: 103,
+    content: "Don't forget the meeting at 3PM.",
+    read: false,
+    timestamp: "2025-06-04T09:30:00Z",
+    author: "Charlie",
+    threadId: 2,
+  },
+  {
+    id: 104,
+    content: "Got it, thanks!",
+    read: true,
+    timestamp: "2025-06-04T09:45:00Z",
+    author: "Diana",
+    threadId: 2,
+  },
+  {
+    id: 105,
+    content: "I'll be late today.",
+    read: false,
+    timestamp: "2025-06-04T08:00:00Z",
+    author: "Ethan",
+    threadId: 3,
+  },
+];
